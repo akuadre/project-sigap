@@ -277,7 +277,7 @@ nav ul li a:hover {
 .left-section {
   color: #eeeeee;
   background-color: #171e2100;
-  margin: 50px 0 0;
+  margin: 6px 0 0;
   display: flex;
   flex-direction: column;
   width: 54%;
@@ -410,7 +410,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-content: center;
   color: white;
-  margin: 50px auto;
+  margin: 80px auto;
 }
 
 .right-section h3 {
@@ -434,15 +434,15 @@ nav ul li a:hover {
 .profile-img img {
   width: 540px;
   height: 299.5px;
-  border: 5px solid #9d7671;
-  border-radius: 30px;
-  transition: 0.5s;
+  filter: drop-shadow(0 0 10px white);
+  border-radius: 12px;
+  transition: .6s;
 }
 
 .profile-img:hover img {
-  border: 5px solid rgb(19, 65, 111);
+  filter: drop-shadow(0 0 10px rgb(252, 160, 22));
+  transform: scale(1.06) rotate(-10deg);
   /* background: radial-gradient(circle, rgba(63,94,251,1) 9%, rgba(252,70,107,1) 87%); */
-  mask-image: linear-gradient(to bottom right, #ff7e5f, #feb47b);
 }
 
 .kontainer {
